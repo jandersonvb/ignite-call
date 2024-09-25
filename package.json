@@ -6,15 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "@ignite-ui/react": "^2.2.4",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.13",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
